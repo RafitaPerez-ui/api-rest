@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
+import entity.HistorialResponse;
 import CuentaResponse;
 import RequestAccount;
 import annotation.Servicio;
@@ -27,6 +27,19 @@ public class MoneyTransferBI {
 			
 		} catch (Exception e) {
 			// TODO: handle exception
+		}
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+	
+	
+		public ResponseEntity<Object> ObtenHistorial(@NotBlank String cuenta) {
+		HistorialResponse response = new HistorialResponse();
+		try {
+			log.info("Ingreso al metodo ObtenHistorial con la cuenta: " + cuenta);
+			String respuesta = "{\"balance\":{ \"acount\":\"1234567889\", \"balance\":\"542.00\",\"owner\":\"7894563\",  \"creacion\":\"2020-01-01\"  }}"; 
+			response = UtileriaServicio.jsonAObjeto(respuesta,HistorialResponse.class);
+		} catch (Exception e) {
+			e.getMessage();
 		}
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
