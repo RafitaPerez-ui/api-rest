@@ -17,19 +17,11 @@ Eclipse IDE
 ```
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_las pruebas se realizan a travez de swagger _
 
-### Analice las pruebas end-to-end 🔩
+### Analisis de pruebas🔩
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+_Las pruebas consisten en tres faces la primera es realizar una transferencia de dinero, la segunda es ver la lista de transacciones y por ultimo obtener el saldo actuAL_
 
 ```
 Da un ejemplo
@@ -37,4 +29,4 @@ Da un ejemplo
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Para desplegar la aplicacion es necesario colocar en la clase que contiene el main  System.setProperty("ambiente", "desarrollo"); para poder realizar el despliegue en nuestro ambiente local_
