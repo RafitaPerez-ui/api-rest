@@ -13,6 +13,7 @@ java 8
 Spring boot
 swagger
 Eclipse IDE
+Gradle
 
 ```
 ## Ejecutando las pruebas ⚙️
