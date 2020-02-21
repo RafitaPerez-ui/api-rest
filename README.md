@@ -34,6 +34,9 @@ _Metodos post que tranfiere diero a una cuenta_
 _Metodos get obtiene el estatus de una cuenta_
 ![la imagen siguiente muestra la ejecucion de la prueba del metodo post](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/MetodoGetCuentaCapture%20007%20-%20Swagger%20UI%20-%20localhost.png)
 
+_Metodos get obtiene el historial de una cuenta_
+![la imagen siguiente muestra la ejecucion de la prueba del metodo post](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/MetodoGetHistorialCapture%20008%20-%20Swagger%20UI%20-%20localhost.png)
+
 
 ## Despliegue 📦
 
