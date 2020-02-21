@@ -31,6 +31,10 @@ _Metodos creados_
 _Metodos post que tranfiere diero a una cuenta_
 ![la imagen siguiente muestra la ejecucion de la prueba del metodo post](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/FireShot%20Capture%20003%20-%20Swagger%20UI%20-%20localhost.png)
 
+_Metodos get obtiene el estatus de una cuenta_
+![la imagen siguiente muestra la ejecucion de la prueba del metodo post](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/MetodoGetCuentaCapture%20007%20-%20Swagger%20UI%20-%20localhost.png)
+
+
 ## Despliegue 📦
 
 _Para desplegar la aplicacion es necesario colocar en la clase que contiene el main  System.setProperty("ambiente", "desarrollo"); para poder realizar el despliegue en nuestro ambiente local_
