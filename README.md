@@ -20,11 +20,8 @@ Eclipse IDE
 _las pruebas se realizan a travez de swagger _
 
 ### Analisis de pruebas🔩
-
-_Las pruebas consisten en tres faces la primera es realizar una transferencia de dinero, la segunda es ver la lista de transacciones y por ultimo obtener el saldo actuAL_
-
 ```
-Da un ejemplo
+_Las pruebas consisten en tres faces la primera es realizar una transferencia de dinero, la segunda es ver la lista de transacciones y por ultimo obtener el saldo actuAL_
 ```
 
 ## Despliegue 📦
