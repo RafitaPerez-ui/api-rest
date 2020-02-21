@@ -25,8 +25,11 @@ https://localhost:puerto/proyecto/swagger-ui.html#/endpoint
 ### Analisis de pruebas🔩
 _Las pruebas consisten en tres faces la primera es realizar una transferencia de dinero, la segunda es ver la lista de transacciones y por ultimo obtener el saldo actual_
 
-_Metodos creados para el proyecto_
-![la imagen siguiente muestra los metodos que se crearon para el proyecto](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/FireShot%20Capture%20003%20-%20Swagger%20UI%20-%20localhost.png)
+_Metodos creados_
+![la imagen siguiente muestra los metodos que se crearon para el proyecto]( )
+
+_Metodos post que tranfiere diero a una cuenta_
+![la imagen siguiente muestra la ejecucion de la prueba del metodo post](https://github.com/RafitaPerez-ui/api-rest/blob/master/img%20de%20pruebas%20locales/FireShot%20Capture%20003%20-%20Swagger%20UI%20-%20localhost.png)
 
 ## Despliegue 📦
 
