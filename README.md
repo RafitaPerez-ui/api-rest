@@ -25,6 +25,7 @@ https://localhost:puerto/proyecto/swagger-ui.html#/endpoint
 ### Analisis de pruebas🔩
 _Las pruebas consisten en tres faces la primera es realizar una transferencia de dinero, la segunda es ver la lista de transacciones y por ultimo obtener el saldo actual_
 
+![la imagen siguiente muestra los metodos que se crearon para el proyecto](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
 
 ## Despliegue 📦
 
