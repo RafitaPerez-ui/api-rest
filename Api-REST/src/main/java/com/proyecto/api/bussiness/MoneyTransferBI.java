@@ -43,5 +43,17 @@ public class MoneyTransferBI {
 		}
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
+	
+		public ResponseEntity<Object> obtenerCuenta(@NotBlank String cuenta) {
+		String respuesta = null ;
+		try {
+			log.info("Ingreso al metodo obtenerCuenta con la cuenta: " + cuenta);
+			 respuesta = "{\"transacciones\":[ {\"cuentaOrigen\":\"55542\",\"cuentaDestino\":\"6742341\",\"monto\":\"66156.20\",\"fechaEnvio\":\"2020-01-01\"},{\"cuentaOrigen\":\"55542\",\"cuentaDestino\":\"6742341\",\"monto\":\"66156.20\",\"fechaEnvio\":\"2020-01-01\"}]}";
+		
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		return new ResponseEntity<>(respuesta, HttpStatus.OK);
+	}
 
 }
