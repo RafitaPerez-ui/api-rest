@@ -38,7 +38,7 @@ public class Controller
               @ApiResponse(code=404, message="No encontrado", response=ResponseError.class),
               @ApiResponse(code=500, message="Internal server error", response=ResponseError.class)})
       @PostMapping(value="/tranfiere/dinero", consumes=MediaType.APPLICATION_JSON_VALUE, produces=MediaType.APPLICATION_JSON_VALUE)
-    @SeguridadAsimetrica
+    
       public ResponseEntity<Object> TranfiereDinero(
           @Valid @RequestHeader(defaultValue="eyJhbGciOiJSUzM4NCIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJIYXNoQ29kZSI6IjY0NTVlMDBjYjgxMWY5MjhhMjgwODNlNzQ1YTcxYjQ5MGYyYzRlYTY4MzE1MGU3MWY4NmQ1NjY4Y2VlODgyOTdkODVmM2ExZTNjZGY2ZTkxZmQ2NGI0YWZkYjEzMDg5M2Q4ZjI3MDY5YmZhNGQ2ZWZlZmM5ZWU1ZTNlZjE1YzBlIn0.bGDQoQTibydo10-EIOnI9cfSJUI2SsA3UUYbnn-0K9qRzL-kstxbe4cqBirh3-Gayjw0rrqkDKkeZi-4MCrGDx4tf2eaABQPsrbD0IixydOKT2DuIHOk383OkigCq9ppr1o9OUrwpsVn_W9QROIQRpQcWqgHsMdzY73j2Qv9oNI", name="Token", required=true) String token,
           @Valid @RequestHeader(defaultValue="5d5c8af08e86041746197249", required=true) String idAcceso,
